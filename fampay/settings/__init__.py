@@ -1,8 +1,8 @@
-import os
+from dotenv import load_dotenv
 
-if os.environ.get("FAMPAY_ENV") == "prod":
+if load_dotenv("FAMPAY_ENV") == "prod":
     from .prod import *
-elif os.environ.get("FAMPAY_ENV") == "staging":
+elif load_dotenv("FAMPAY_ENV") == "staging":
     from .staging import *
 else:
     from .dev import *
