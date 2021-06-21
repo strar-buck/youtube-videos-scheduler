@@ -1,8 +1,8 @@
-from dotenv import load_dotenv
+from decouple import config
 
-if load_dotenv("FAMPAY_ENV") == "prod":
+if config("FAMPAY_ENV") == "prod":
     from .prod import *
-elif load_dotenv("FAMPAY_ENV") == "staging":
+elif config("FAMPAY_ENV") == "staging":
     from .staging import *
 else:
     from .dev import *
