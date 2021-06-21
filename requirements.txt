@@ -1,7 +1,10 @@
-Django==2.2.14
-python-dotenv==0.18.0
-psycopg2-binary==2.8.3
-black==21.6b0
-gunicorn==20.1.0
+black==19.10b0
+python-decouple==3.3
 redis==3.5.3
+Django==2.2.14
+psycopg2-binary==2.8.3
+requests==2.24.0
 celery==4.4.0
+pycurl==7.43.0.5
+gunicorn==20.1.0
+djangorestframework==3.8.2
