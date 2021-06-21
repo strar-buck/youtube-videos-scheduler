@@ -12,7 +12,6 @@ ___
 
   
 # Steps to run the application
-- With Docker
 Build the Image
 ```
 docker-compose buid
