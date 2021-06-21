@@ -16,7 +16,7 @@ Build the Image
 ```
 docker-compose buid
 ```
-Run the docker container
+Run the containers (Running multiple container - application server: Gunicorn, db container)
 ```
 docker-compose up
 ```
