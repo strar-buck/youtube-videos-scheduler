@@ -58,7 +58,7 @@ class YoutubeApiService(object):
                 snippetDetail = video.get("snippet")
                 videoDetails["video_id"] = video.get("id").get("videoId")
                 videoDetails["video_title"] = snippetDetail.get("title")
-                videoDetails["thumbnail"] = snippetDetail.get("thumbnails")
+                videoDetails["thumbnails"] = snippetDetail.get("thumbnails")
                 videoDetails["description"] = snippetDetail.get("description")
                 videoDetails["channel_id"] = snippetDetail.get("channelId")
                 videoDetails["channel_title"] = snippetDetail.get("channelTitle")
