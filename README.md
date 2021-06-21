@@ -162,7 +162,7 @@ DB_USER=<fampayuser>
 DB_NAME=<fampaydb>
 DB_HOST=db
 DB_PASS=<password>
-DB_PORT=
+DB_PORT=5432
 FAMPAY_ENV=dev
 SECRET_KEY=+ou48%dspg3m(=383fz%r!w$5+6yr#)otnsd=l-dv#y^!@f2su
 ```
