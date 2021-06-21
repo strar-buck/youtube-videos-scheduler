@@ -52,6 +52,14 @@ stopwaitsecs=1
 stdout_logfile=/code/logs/worker_out.log
 stderr_logfile=/code/logs/worker_err.log
 ```
+Api endpoints
+```
+$ curl GET \
+  --url 'http://127.0.0.1:8080/api/v1/youtube-video/list
 
+$ curl GET \
+  --url 'http://127.0.0.1:8080/api/v1/youtube-video/list?title=<some_title>&description=<some_desc>
+
+```
 
    
