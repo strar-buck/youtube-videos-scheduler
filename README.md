@@ -68,7 +68,37 @@ $ curl GET \
 
 ```
 Api Response
-API: http://localhost:8080/api/v1/youtube-video/list?description=psl%20live%20today%20match%20LIVE
+- API: http://localhost:8080/api/v1/youtube-video/list?title=Free%20Cricket%20Trails%20for%20You 
+```
+[{
+	"videoId": "m1nlAFkdKHs",
+	"createdOn": "2021-06-21T13:31:03.807954Z",
+	"updatedOn": "2021-06-21T13:31:03.807978Z",
+	"videoTitle": "Free Cricket Trails for You !! Free Cricket Trails 2021 !! Cricket Trials !!",
+	"description": "Free Cricket Trails for You !! Free Cricket Trails 2021 !! Cricket Trials !! Hlo My self Arpit and welcome to my youtube channel !",
+	"publishedAt": "2021-06-21T05:51:22Z",
+	"thumbnails": {
+		"high": {
+			"url": "https://i.ytimg.com/vi/m1nlAFkdKHs/hqdefault.jpg",
+			"width": 480,
+			"height": 360
+		},
+		"medium": {
+			"url": "https://i.ytimg.com/vi/m1nlAFkdKHs/mqdefault.jpg",
+			"width": 320,
+			"height": 180
+		},
+		"default": {
+			"url": "https://i.ytimg.com/vi/m1nlAFkdKHs/default.jpg",
+			"width": 120,
+			"height": 90
+		}
+	},
+	"channelId": "UCkyihHtMbYi8oFlKIM8EIuA",
+	"channelTitle": "Cricket With Arpit"
+}]
+```
+- API: http://localhost:8080/api/v1/youtube-video/list?description=psl%20live%20today%20match%20LIVE
 ```
 [{
 	"videoId": "FcIxDz7sbGI",
