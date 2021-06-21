@@ -52,6 +52,7 @@ class YoutubeVideo(YoutubeBaseModel):
         db_table = "youtube_video"
         verbose_name = "Youtube Video"
         verbose_name_plural = "Youtube Videos"
+        ordering = ("-published_at",)
 
     def __str__(self):
         return self.video_title
