@@ -21,7 +21,7 @@ Run the containers (Running multiple container - application server: Gunicorn, d
 docker-compose up
 ```
 Application server: Gunicorn and Background Jobs are running thrugh supervisor
-supervisor.conf
+# supervisor.conf
 
 ```
 
@@ -31,8 +31,8 @@ command=gunicorn fampay.wsgi:application --bind 0.0.0.0:8000
 autostart=true
 autorestart=true
 stopwaitsecs=1
-stdout_logfile=/code/django_out.log
-stderr_logfile=/code/django_err.log
+stdout_logfile=/code/logs/django_out.log
+stderr_logfile=/code/logs/django_err.log
 
 [program:fampay_scheduler]
 directory=/code
@@ -40,8 +40,8 @@ command=celery -A fampay worker --loglevel=info
 autostart=true
 autorestart=true
 stopwaitsecs=1
-stdout_logfile=/code/worker_out.log
-stderr_logfile=/code/worker_err.log
+stdout_logfile=/code/logs/worker_out.log
+stderr_logfile=/code/logs/worker_err.log
 
 [program:fampay_beat_scheduler]
 directory=/code
@@ -49,8 +49,8 @@ command=celery -A fampay beat --loglevel=info
 autostart=true
 autorestart=true
 stopwaitsecs=1
-stdout_logfile=/code/worker_out.log
-stderr_logfile=/code/worker_err.log
+stdout_logfile=/code/logs/worker_out.log
+stderr_logfile=/code/logs/worker_err.log
 ```
 
 
