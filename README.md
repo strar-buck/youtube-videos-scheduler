@@ -67,5 +67,9 @@ $ curl GET \
   --url 'http://localhost:8000/api/v1/youtube-video/list?title=<some_title>&description=<some_desc>
 
 ```
+Api Response
+```
+[{"videoId":"FcIxDz7sbGI","createdOn":"2021-06-21T13:31:03.793520Z","updatedOn":"2021-06-21T13:31:03.793543Z","videoTitle":"LIVE CRICKET DISCUSSION &amp; FAN CHAT OF ISLAMABAD VS MULTAN  -  LIVE ANALYSIS OF IU VS MS TODAY PSL","description":"psl live today match LIVE CRICKET DISCUSSION & FAN CHAT OF MULTAN vs LAHORE - LIVE ANALYSIS OF ms vs lq TODAY psl live today match LIVE ...","publishedAt":"2021-06-21T11:49:07Z","thumbnails":{"high":{"url":"https://i.ytimg.com/vi/FcIxDz7sbGI/hqdefault_live.jpg","width":480,"height":360},"medium":{"url":"https://i.ytimg.com/vi/FcIxDz7sbGI/mqdefault_live.jpg","width":320,"height":180},"default":{"url":"https://i.ytimg.com/vi/FcIxDz7sbGI/default_live.jpg","width":120,"height":90}},"channelId":"UCnHzxEsUqjDdZ8cPjH4NBEQ","channelTitle":"Techno Records"},{"videoId":"CsIyXOVKhhU","createdOn":"2021-06-21T13:31:03.885944Z","updatedOn":"2021-06-21T13:31:03.885969Z","videoTitle":"LIVE CRICKET DISCUSSION &amp; FAN CHAT OF KARACHI VS QUETTA  - LIVE ANALYSIS OF KK vs QG TODAY PSL","description":"psl live today match LIVE CRICKET DISCUSSION & FAN CHAT OF KARACHI VS QUETTA - LIVE ANALYSIS OF ms vs lq TODAY psl live today match LIVE ...","publishedAt":"2021-06-19T17:12:36Z","thumbnails":{"high":{"url":"https://i.ytimg.com/vi/CsIyXOVKhhU/hqdefault.jpg","width":480,"height":360},"medium":{"url":"https://i.ytimg.com/vi/CsIyXOVKhhU/mqdefault.jpg","width":320,"height":180},"default":{"url":"https://i.ytimg.com/vi/CsIyXOVKhhU/default.jpg","width":120,"height":90}},"channelId":"UCnHzxEsUqjDdZ8cPjH4NBEQ","channelTitle":"Techno Records"}]
+```
 
    
