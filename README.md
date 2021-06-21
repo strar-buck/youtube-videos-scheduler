@@ -55,10 +55,10 @@ stderr_logfile=/code/logs/worker_err.log
 Api endpoints
 ```
 $ curl GET \
-  --url 'http://127.0.0.1:8000/api/v1/youtube-video/list
+  --url 'http://localhost:8000/api/v1/youtube-video/list
 
 $ curl GET \
-  --url 'http://127.0.0.1:8000/api/v1/youtube-video/list?title=<some_title>&description=<some_desc>
+  --url 'http://localhost:8000/api/v1/youtube-video/list?title=<some_title>&description=<some_desc>
 
 ```
 
