@@ -10,7 +10,6 @@ from .models import YoutubeVideo
 from .filters import YoutubeVideoFilter
 from .serializers import YoutubeVideoSerializer
 from utils.logger import logger
-from utils.pagination import PaginationHandlerMixin
 
 
 class YoutubeVideoList(APIView):
