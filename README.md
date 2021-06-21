@@ -13,4 +13,14 @@ ___
   
 # Steps to run the application
 - With Docker
+Build the Image
+```
+docker-compose buid
+```
+Run the docker container
+```
+docker-compose up
+```
+
+
    
